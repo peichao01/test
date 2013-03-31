@@ -1,0 +1,1 @@
+alert('data from http://pc2.com/data.js');
