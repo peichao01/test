@@ -1,0 +1,20 @@
+<html>
+	<head></head>
+	<body>
+		<script>
+
+			var data = '{"nick":"peichao01","web":"www.zuo.com"}';
+			var data2 = '{"nick":"naruto_is_me","web":"www.weimi.com"}';
+			var proxy = 'http://pc1.com/proxy.html#';
+			
+			var ifr = document.createElement('iframe');
+			document.body.appendChild(ifr);
+			function setData(data){
+				ifr.src = proxy + data;
+			}
+			
+			setData(data);
+
+		</script>
+	</body>
+</html>
