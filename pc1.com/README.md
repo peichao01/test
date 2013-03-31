@@ -1,6 +1,11 @@
-pc1.com ºÍ pc2.com Ö÷ÒªÊÇ²âÊÔ js ¿çÓò
+pc1.com å’Œ pc2.com ä¸»è¦æ˜¯æµ‹è¯• js è·¨åŸŸ
 
-1. blog ºÍ domain ·Ö±ğÊÇ£ºblog.pc1.com ºÍ domain.pc1.com ¶ÔÓ¦µÄÄ¿Â¼
-- domain/a.html iframe °üº¬ blog/a.html Ò³Ãæ¡£
-- Ä¬ÈÏÇé¿öÏÂ¶şÕß²»¿É»¥Ïà·ÃÎÊ¶Ô·½µÄ contentWindow(window¶ÔÏó)
-- Ë«·½¸÷×Ô½«×Ô¼ºµÄ document.domain = 'pc1.com' ºó£¬¾Í¿ÉÒÔ»¥ÏàÍ¨Ñ¶ÁË¡£
+è¿™ä¸¤ä¸ªç›®å½•åˆ†åˆ«å¯¹åº”ï¼šhttp://pc1.com/ å’Œ http://pc2.com/
+
+åœ¨nginxä¸‹é…ä¸€ä¸ªè™šæ‹Ÿä¸»æœºå³å¯ï¼ŒäºŒçº§å­åŸŸåä¹Ÿæ˜¯
+(1)ä¿®æ”¹ hosts, local ip pc1.com \n ip domain.pc1.com ...
+
+1. blog å’Œ domain åˆ†åˆ«æ˜¯ï¼šblog.pc1.com å’Œ domain.pc1.com å¯¹åº”çš„ç›®å½•
+- domain/a.html iframe åŒ…å« blog/a.html é¡µé¢ã€‚
+- é»˜è®¤æƒ…å†µä¸‹äºŒè€…ä¸å¯äº’ç›¸è®¿é—®å¯¹æ–¹çš„ contentWindow(windowå¯¹è±¡)
+- åŒæ–¹å„è‡ªå°†è‡ªå·±çš„ document.domain = 'pc1.com' åï¼Œå°±å¯ä»¥äº’ç›¸é€šè®¯äº†ã€‚
