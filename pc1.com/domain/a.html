@@ -1,10 +1,31 @@
 <html>
 	<head>
 		<title>a.html</title>
+		<script>
+			//此页的domain 和 被iframe的另一个二级域的domain都要设置为相同的域名
+			document.domain = 'pc1.com';
+		</script>
 		<script src="data.js"></script>
 	</head>
 	<body>
 		<h1>domain - 子域跨域测试</h1>
 		<h2>a.html from http://domain.pc1.com/</h2>
+		<script>
+			var iframe, iframeUrl, onload;
+			iframeUrl = 'http://blog.pc1.com/a.html';
+			onload = function(){
+				alert(iframe.contentWindow.data);
+			};
+			
+			iframe = document.createElement('iframe');
+			iframe.src = iframeUrl;
+			if(iframe.attachEvent){
+				iframe.attachEvent('onload', onload);
+			}else{
+				iframe.onload = onload;
+			}
+			document.body.appendChild(iframe);
+		
+		</script>
 	</body>
 </html>
