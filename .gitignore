@@ -1,2 +1,24 @@
-/node/.idea/
+*.bak
+*.back
+*.swp
+*.log
+*~
+
+/*/.DS_Store
+/*/._.DS_Store
+/*/.idea/
+
+/symfony2/app/config/parameters.yml
+/symfony2/app/bootstrap*
+/symfony2/app/cache/*
+/symfony2/app/logs/*
+/symfony2/vendor/
+/symfony2/composer.lock
+/symfony2/composer
+/symfony2/web/bundles/
+/symfony2/web/tmp*
+/symfony2/web/js/*
+/symfony2/web/css/*
+/symfony2/web/*.log
+/symfony2/web/uploads
 
