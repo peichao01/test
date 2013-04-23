@@ -1,0 +1,5 @@
+{
+	"scriptsRoot": "./resources/scripts/test2",
+	"globalNamespace": "dl",
+	"defineAsGlobal": true
+}

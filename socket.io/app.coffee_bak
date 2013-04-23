@@ -1,0 +1,29 @@
+http = require 'http'
+io = require 'socket.io'
+fs = require 'fs'
+
+app = http.createServer (req, res)->
+	if req.url is '/' then url = '/index.html' else url = req.url
+	if url.match /\.js$/
+		contentType = 'text/javascript'
+	else if url.match /\.css$/
+		contentType = 'text/css'
+	else if url.match /\.html$/
+		contentType = 'text/html'
+	#else
+		#
+
+	fs.readFile "#{__dirname}#{req.url}", (err, data)->
+		if err
+			res.writeHead 500
+			return res.end "Error loading #{req.url}"
+		res.writeHead 200, 'Content-Type': contentType
+		res.end data
+
+io = io.listen app
+app.listen 8080
+
+io.sockets.on 'connection', (socket) ->
+	socket.emit 'news', hello: world
+	socket.on 'my other event', (data)->
+		console.log data

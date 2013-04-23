@@ -1,0 +1,59 @@
+doctype 5
+html
+	head
+		title= html5 game test
+		link(rel="stylesheet", href="/css/main.css")
+
+	body
+		h1= test files
+		ul
+			li
+				a(href="index.html") =1. index.html
+				a(href="index2.html") =2. index2.html
+				a(href="index3.html") =3. index3.html
+		h2= 使用：
+		pre
+dl.config({
+//..
+});
+define('/path/to/this/module', ['dependency/module'], function(require, exports, module){
+	var module = require('dependency/module');
+});
+dl.use(['/path/to/dependency/module'], function(require){});
+
+	//<script data-main="/scripts/main" src="/scripts/require.js"></script>
+	script(src="/scripts/D_loader_v0.1.js")
+	script
+		dl.config({
+				env: 'development',
+				root: '/scripts/test'
+		})
+						/*.use(['/test/map','/test/charactor'], function(require){
+								var map = require('/test/map'),
+												charactor = require('/test/charactor');
+
+		})*/
+						/*.use([], function(){
+								console.log('use, no dependencies.');
+						})*/
+						/*.use(['/util'], function(require){
+								var util = require('/util');
+								console.log(util.extend({
+										name: 'David'
+								}, {
+										age: 20
+								}));
+								console.log('use, dependency on one terminal module.');
+						})*/
+						/*.use(['/util','/animate'],function(require){
+								var util = require('/util'),
+												animate = require('/animate');
+								console.log(util,animate);
+						})*/
+						.use(['/guns/bullet', '/util', '/test1'],function(require){
+								console.log(require('/util').extend({
+										name: 'David'
+								},{
+										age: 20
+								}));
+						});

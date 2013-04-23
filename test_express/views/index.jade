@@ -1,0 +1,8 @@
+extends layout
+
+block body_scripts
+	script(type="text/coffeescript", src="/scripts/test.coffee")
+
+block content
+	h1= title
+	p Welcome to #{title}
