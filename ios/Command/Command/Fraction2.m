@@ -39,7 +39,7 @@
 
 -(void) simplify
 {
-    int small = numerator < denominator ? denominator : numerator;
+    int small = numerator < denominator ? numerator : denominator;
     int i = 2;
     for (; i <= small; i++) {
         if (numerator / i * i == numerator && denominator / i * i == denominator) {
