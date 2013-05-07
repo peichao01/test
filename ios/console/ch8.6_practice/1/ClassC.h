@@ -1,6 +1,8 @@
 #import <Foundation/Foundation.h>
 
-@interface ClassB: ClassA
+#import "ClassB.h"
+
+@interface ClassC: ClassB
 
 -(void) initVar;
 

@@ -1,6 +1,6 @@
 #import "ClassA.h"
 
-@implementation
+@implementation ClassA
 
 @synthesize	x, y;
 
