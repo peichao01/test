@@ -1,6 +1,6 @@
 #import "ClassB.h"
 
-@implementation	ClassB
+@implementation ClassB
 
 -(void) initVar
 {

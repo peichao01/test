@@ -1,14 +1,14 @@
 #import <Foundation/Foundation.h>
 
+//#import "ClassA.h"
 #import "A.h"
 
-int main(int argc, char *argv[])
+int main(int argc, char * argv[])
 {
 	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 
-	A *a = [[A alloc] init];
-
-	NSLog(@"a.x = %i.", a.x);
+	//ClassA * a = [[ClassA alloc] init];
+	A *a = [A new];
 
 	[a release];
 

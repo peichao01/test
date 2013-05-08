@@ -12,11 +12,12 @@
 
 @synthesize width, height;
 
--(Rectangle *) init
+/*-(Rectangle *) init
 {
     origin = [XYPoint new];
     return [super init];
 }
+ */
 
 -(void) setWidth:(int)wVal andHeight:(int)hVal
 {

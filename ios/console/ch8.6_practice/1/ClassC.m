@@ -1,4 +1,4 @@
-#import "ClassB.h"
+#import "ClassC.h"
 
 @implementation ClassC
 
