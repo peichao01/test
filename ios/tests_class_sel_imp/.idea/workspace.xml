@@ -12,7 +12,7 @@
     <file path="/DoProxy.m" changelist="53846587-351f-4a41-82ca-e20359f8157a" time="1367998240870" ignored="false" />
     <file path="/DoProxy.h" changelist="53846587-351f-4a41-82ca-e20359f8157a" time="1367998216598" ignored="false" />
     <file path="/main.m" changelist="53846587-351f-4a41-82ca-e20359f8157a" time="1367997564499" ignored="false" />
-    <file path="/fragment.m" changelist="53846587-351f-4a41-82ca-e20359f8157a" time="1367998083316" ignored="false" />
+    <file path="/fragment.m" changelist="53846587-351f-4a41-82ca-e20359f8157a" time="1368004453619" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +35,7 @@
       <file leaf-file-name="main.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/main.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0">
+            <state line="26" column="0" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#180#213#0" expanded="true" />
               </folding>
@@ -46,7 +46,7 @@
       <file leaf-file-name="DoProxy.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/DoProxy.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="8" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
+            <state line="15" column="12" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -64,7 +64,16 @@
       <file leaf-file-name="Bull.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/Bull.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
+            <state line="14" column="50" selection-start="195" selection-end="233" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bull.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/Bull.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -82,7 +91,7 @@
       <file leaf-file-name="DoProxy.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/DoProxy.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="8" selection-start="470" selection-end="470" vertical-scroll-proportion="0.33333334">
+            <state line="77" column="17" selection-start="1767" selection-end="1767" vertical-scroll-proportion="0.77195686">
               <folding />
             </state>
           </provider>
@@ -98,8 +107,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/tests_class_sel_imp/main.m" />
         <option value="$PROJECT_DIR$/tests_class_sel_imp/DoProxy.h" />
+        <option value="$PROJECT_DIR$/tests_class_sel_imp/main.m" />
         <option value="$PROJECT_DIR$/tests_class_sel_imp/DoProxy.m" />
       </list>
     </option>
@@ -272,14 +281,14 @@
     <frame x="10" y="22" width="1900" height="1105" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.49973363" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24986681" sideWeight="0.6003956" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39960435" sideWeight="0.49973363" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12733085" sideWeight="0.66963404" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.330366" sideWeight="0.6563665" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39960435" sideWeight="0.5002664" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.330366" sideWeight="0.34363344" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -352,12 +361,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/tests_class_sel_imp/main.m</url>
-          <line>23</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/tests_class_sel_imp/DoProxy.m</url>
+          <line>24</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -370,9 +379,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/Bull.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/Bull.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="50" selection-start="195" selection-end="233" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/Cattle.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="0" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/DoProxy.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="12" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -384,32 +414,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/Bull.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/main.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0">
+        <state line="26" column="0" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#180#213#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/DoProxy.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="8" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/DoProxy.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="8" selection-start="470" selection-end="470" vertical-scroll-proportion="0.33333334">
+        <state line="77" column="17" selection-start="1767" selection-end="1767" vertical-scroll-proportion="0.77195686">
           <folding />
         </state>
       </provider>

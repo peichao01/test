@@ -25,7 +25,7 @@ int main(int argc, const char * argv[])
 
 	[doProxy setAllVars];
 	[doProxy SELFuncs];
-	[doProxy functionPointsers];
+	[doProxy functionPointers];
 
 	[doProxy release];
 	[pool drain];

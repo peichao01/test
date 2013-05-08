@@ -62,7 +62,7 @@ firstRun = YES;
 {
 	[self doWithCattleId:cattle[0] colorParam:@"brown"];
 	[self doWithCattleId:cattle[1] colorParam:@"red"];
-	[self doWithCattleId:cattle[1] colorParam:@"black"];
+	[self doWithCattleId:cattle[2] colorParam:@"black"];
 	[self doWithCattleId:self colorParam:@"haha"];
 }
 
