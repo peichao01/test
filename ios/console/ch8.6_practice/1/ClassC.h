@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-@interface ClassB: ClassA
+@interface ClassC: ClassB
 
 -(void) initVar;
 
