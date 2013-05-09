@@ -68,7 +68,7 @@ DoProxyProto.SELFuncs = function SELFuncs()
 DoProxyProto.functionPointers = function functionPointers()
 {
 	this.setSkinColor_Func = this.skin;//this.cattle[1][this.skin.name];
-	this.say_Func = this.say;//this.cattle[1][this.say.name];
+	this.say_Func = this.say;//	this.cattle[1][this.say.name];
 	
 	this.setSkinColor_Func.call(this.cattle[1], "verbos");
 	

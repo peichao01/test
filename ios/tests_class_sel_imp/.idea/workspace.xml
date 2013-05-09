@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53846587-351f-4a41-82ca-e20359f8157a" name="Default" comment="" />
+    <list default="true" id="53846587-351f-4a41-82ca-e20359f8157a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests_class_sel_imp/TestRelation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests_class_sel_imp/TestRelation.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ch9/ch9.xcodeproj/project.xcworkspace/xcuserdata/peichao.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/../ch9/ch9.xcodeproj/project.xcworkspace/xcuserdata/peichao.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests_class_sel_imp.xcodeproj/project.xcworkspace/xcuserdata/peichao.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/tests_class_sel_imp.xcodeproj/project.xcworkspace/xcuserdata/peichao.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web.esproj/user.peichao.espressostorage" afterPath="$PROJECT_DIR$/web/web.esproj/user.peichao.espressostorage" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/DoProxy.js" afterPath="$PROJECT_DIR$/web/DoProxy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests_class_sel_imp/main.m" afterPath="$PROJECT_DIR$/tests_class_sel_imp/main.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests_class_sel_imp.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/tests_class_sel_imp.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="tests_class_sel_imp.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/a.mm" changelist="53846587-351f-4a41-82ca-e20359f8157a" time="1367996675488" ignored="false" />
@@ -11,8 +22,11 @@
     <file path="/a.xml" changelist="53846587-351f-4a41-82ca-e20359f8157a" time="1367996828181" ignored="false" />
     <file path="/DoProxy.m" changelist="53846587-351f-4a41-82ca-e20359f8157a" time="1367998240870" ignored="false" />
     <file path="/DoProxy.h" changelist="53846587-351f-4a41-82ca-e20359f8157a" time="1367998216598" ignored="false" />
-    <file path="/main.m" changelist="53846587-351f-4a41-82ca-e20359f8157a" time="1367997564499" ignored="false" />
+    <file path="/main.m" changelist="53846587-351f-4a41-82ca-e20359f8157a" time="1368071219371" ignored="false" />
     <file path="/fragment.m" changelist="53846587-351f-4a41-82ca-e20359f8157a" time="1368004453619" ignored="false" />
+    <file path="/Dummy.txt" changelist="53846587-351f-4a41-82ca-e20359f8157a" time="1368075203690" ignored="false" />
+    <file path="/TestRelation.h" changelist="53846587-351f-4a41-82ca-e20359f8157a" time="1368071104225" ignored="false" />
+    <file path="/TestRelation.m" changelist="53846587-351f-4a41-82ca-e20359f8157a" time="1368072234677" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,30 +46,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/main.m">
+      <file leaf-file-name="DoProxy.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/DoProxy.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#180#213#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DoProxy.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/DoProxy.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="12" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
+            <state line="64" column="51" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cattle.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/Cattle.m">
+      <file leaf-file-name="Cattle.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/Cattle.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
+            <state line="15" column="20" selection-start="239" selection-end="251" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bull.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/Bull.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="26" selection-start="265" selection-end="277" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -70,28 +82,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bull.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/Bull.h">
+      <file leaf-file-name="Cattle.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/Cattle.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="20" column="0" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cattle.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/Cattle.h">
+      <file leaf-file-name="DoProxy.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/DoProxy.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="15" column="1" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoProxy.m" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/DoProxy.m">
+      <file leaf-file-name="main.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/main.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="17" selection-start="1767" selection-end="1767" vertical-scroll-proportion="0.77195686">
+            <state line="36" column="19" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestRelation.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/TestRelation.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="41" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.48324874">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestRelation.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/TestRelation.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -104,12 +134,22 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/tests_class_sel_imp/DoProxy.h" />
-        <option value="$PROJECT_DIR$/tests_class_sel_imp/main.m" />
         <option value="$PROJECT_DIR$/tests_class_sel_imp/DoProxy.m" />
+        <option value="$PROJECT_DIR$/tests_class_sel_imp/TestRelation.h" />
+        <option value="$PROJECT_DIR$/tests_class_sel_imp/main.m" />
+        <option value="$PROJECT_DIR$/tests_class_sel_imp/TestRelation.m" />
       </list>
     </option>
   </component>
@@ -171,7 +211,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -230,11 +270,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="tests_class_sel_imp" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.tests_class_sel_imp">
     <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="tests_class_sel_imp" TARGET_NAME="tests_class_sel_imp" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="tests_class_sel_imp" RUN_TARGET_NAME="tests_class_sel_imp" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
@@ -279,14 +320,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1900" height="1105" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.49973363" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12733085" sideWeight="0.66963404" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.330366" sideWeight="0.6563665" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12733085" sideWeight="0.6706231" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.330366" sideWeight="0.6563665" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.330366" sideWeight="0.34363344" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -295,6 +335,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.49973363" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -359,23 +400,26 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/tests_class_sel_imp/DoProxy.m</url>
-          <line>24</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="4" />
     </breakpoint-manager>
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="tests_class_sel_imp" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="tests_class_sel_imp" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/main.m">
+    <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/Cattle.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="1" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#180#213#0" expanded="true" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -407,25 +451,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/Cattle.h">
+    <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/main.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="26" column="0" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/main.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#180#213#0" expanded="true" />
-          </folding>
+        <state line="22" column="1" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/Bull.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="50" selection-start="195" selection-end="233" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/Cattle.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/DoProxy.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="1" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/DoProxy.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="17" selection-start="1767" selection-end="1767" vertical-scroll-proportion="0.77195686">
+        <state line="64" column="51" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/TestRelation.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/main.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="19" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/Bull.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="26" selection-start="265" selection-end="277" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/Cattle.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="20" selection-start="239" selection-end="251" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests_class_sel_imp/TestRelation.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="41" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.48324874">
           <folding />
         </state>
       </provider>

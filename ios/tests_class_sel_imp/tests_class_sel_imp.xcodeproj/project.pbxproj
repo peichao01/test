@@ -13,6 +13,7 @@
 		5D407B08173A05390056DFAC /* Cattle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D407B07173A05390056DFAC /* Cattle.m */; };
 		5D407B0B173A05C80056DFAC /* Bull.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D407B0A173A05C80056DFAC /* Bull.m */; };
 		5D407B0E173A06B90056DFAC /* DoProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D407B0D173A06B90056DFAC /* DoProxy.m */; };
+		D7099298167FB122719E1D32 /* TestRelation.m in Sources */ = {isa = PBXBuildFile; fileRef = D709977B0D3E1C17F7F83DFB /* TestRelation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,8 @@
 		5D407B0A173A05C80056DFAC /* Bull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bull.m; sourceTree = "<group>"; };
 		5D407B0C173A06B90056DFAC /* DoProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoProxy.h; sourceTree = "<group>"; };
 		5D407B0D173A06B90056DFAC /* DoProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoProxy.m; sourceTree = "<group>"; };
+		D70991936561049550C9CC7E /* TestRelation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestRelation.h; sourceTree = "<group>"; };
+		D709977B0D3E1C17F7F83DFB /* TestRelation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestRelation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				5D407B0A173A05C80056DFAC /* Bull.m */,
 				5D407B0C173A06B90056DFAC /* DoProxy.h */,
 				5D407B0D173A06B90056DFAC /* DoProxy.m */,
+				D709977B0D3E1C17F7F83DFB /* TestRelation.m */,
+				D70991936561049550C9CC7E /* TestRelation.h */,
 			);
 			path = tests_class_sel_imp;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 				5D407B08173A05390056DFAC /* Cattle.m in Sources */,
 				5D407B0B173A05C80056DFAC /* Bull.m in Sources */,
 				5D407B0E173A06B90056DFAC /* DoProxy.m in Sources */,
+				D7099298167FB122719E1D32 /* TestRelation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

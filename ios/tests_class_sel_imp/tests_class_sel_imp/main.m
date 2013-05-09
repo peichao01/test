@@ -10,6 +10,7 @@
 
 #import <Foundation/Foundation.h>
 #import "DoProxy.h"
+#import "TestRelation.h"
 
 int main(int argc, const char * argv[])
 {
@@ -20,6 +21,7 @@ int main(int argc, const char * argv[])
 	    NSLog(@"Hello, World!");
 	    
 	}*/
+	//PART I
 	NSAutoreleasePool *pool = [NSAutoreleasePool new];
 	DoProxy *doProxy = [DoProxy new];
 
@@ -28,6 +30,12 @@ int main(int argc, const char * argv[])
 	[doProxy functionPointers];
 
 	[doProxy release];
+
+	//PART II
+	TestRelation *test = [TestRelation new];
+	[test test];
+	[test release];
+
 	[pool drain];
 	return 0;
 }
