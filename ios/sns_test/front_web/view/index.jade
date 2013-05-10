@@ -1,0 +1,15 @@
+extends layout
+
+block body_content
+	h2 all users:
+	-if(users.length > 0)
+		table#users-table
+			tr
+				td name
+				td email
+			-each user, i in users
+				tr
+					td #{user.name}
+					td #{user.email}
+	-else
+		div.warn No user.

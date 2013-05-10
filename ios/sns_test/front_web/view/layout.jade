@@ -1,0 +1,11 @@
+doctype 5
+html
+	head
+		title #{pageTitle}
+		link(type="text/css", rel="stylesheet", href="/css/main.css")
+		block headcss
+	body
+		#body-wrapper
+			block body_content
+		script(type="text/javascript", src="/js/main.js")
+		block footjs

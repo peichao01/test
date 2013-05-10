@@ -1,0 +1,6 @@
+#users-table{
+	border-collapse: collapse;
+}
+#users-table td{
+	border: 1px solid #000;
+}
