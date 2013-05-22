@@ -1,0 +1,19 @@
+{
+  "name": "app-name",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "locomotive": "0.3.x",
+    "express": "3.x.x",
+    "connect-powered-by": "0.1.x",
+    "jade": "latest",
+		"mongoose": "latest",
+		"mongoose-types": "latest",
+		"locomotive-mongoose": "latest",
+		"passport": "latest",
+		"passport-local": "latest",
+		"passport-remember-me": "latest",
+		"passport-github": "latest",
+		"bcrypt": "latest"
+  }
+}

@@ -1,0 +1,24 @@
+NSData
+
+使用文件时，需要频繁地将数据读入一个临时存储区，它通常成为缓冲区。
+
+NSData类提供了一种简单的方式，它用来设置缓冲区、将文件的内容读入缓冲区，或将缓冲区的内容写到一个文件。
+
+对于32位应用程序，NSDATA缓存区最多可以存储2GB的数据。
+
+我们既可定义不变缓冲区（NSData类），也可定义可变的缓冲区（NSMutableData类）。
+
+下面代码展示了如何将文件的内容读入内存缓冲区，然后再将缓冲区的内容写入到另一个文件中。
+
+NSData *fileData;
+NSFileManager *fileManager = [[NSFileManager alloc]init];
+fileData = [fileManager contentsAtPath:path];  
+[fileManager createFileAtPath:path2 contents:fileData attributes:nil];   //采用默认的属性值
+
+类型转换 NSData -> NSString：
+
+NSString *strData = [[NSString alloc]initWithData:fileData encoding:NSASCIIStringEncoding];
+
+类型转换 NSString -> NSData：
+
+NSData *fileData2 = [strData dataUsingEncoding:NSUTF8StringEncoding];

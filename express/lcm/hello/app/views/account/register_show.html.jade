@@ -1,0 +1,19 @@
+!!! 5
+html
+	head
+		title #{title}
+	body
+		form(method="POST", action="#{registerShowPath()}")
+			label(for="email") email
+			input(id="email", placeholder="Enter your email", name="email", type="text")
+			br
+
+			label(for="password") password
+			input(id="password", placeholder="Enter your password", name="password", type="password")
+			br
+
+			label(for="nick") nick
+			input(id="nick", placeholder="Enter your nick name", name="nick", type="text")
+			br
+
+			input(type="submit", value="提交注册")

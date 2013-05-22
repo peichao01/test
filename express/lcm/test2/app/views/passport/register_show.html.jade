@@ -1,0 +1,25 @@
+!!! 5
+html
+	head
+		title #{title}
+	body
+		h1 注册页面
+
+		form(method="POST", action="#{registerShowPath()}")
+			label(for="email") 邮箱：
+			input(id="email", placeholder="Enter your email", name="email", type="text")
+			br
+
+			label(for="password") 密码：
+			input(id="password", placeholder="Enter your password", name="password", type="password")
+			br
+
+			label(for="password") 重复密码：
+			input(id="password_re", placeholder="Enter your password", name="password_re", type="password")
+			br
+
+			label(for="nick") 昵称：
+			input(id="nick", placeholder="Enter your nick name", name="nick", type="text")
+			br
+
+			input(type="submit", value="提交注册")
