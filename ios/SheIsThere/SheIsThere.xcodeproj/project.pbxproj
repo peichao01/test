@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D3B595A1743984000EC1942 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3B59591743984000EC1942 /* UIKit.framework */; };
+		5D3B595C1743984000EC1942 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3B595B1743984000EC1942 /* Foundation.framework */; };
+		5D3B595E1743984000EC1942 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3B595D1743984000EC1942 /* CoreGraphics.framework */; };
+		5D3B59641743984000EC1942 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D3B59621743984000EC1942 /* InfoPlist.strings */; };
+		5D3B59661743984000EC1942 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3B59651743984000EC1942 /* main.m */; };
+		5D3B596A1743984000EC1942 /* PCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3B59691743984000EC1942 /* PCAppDelegate.m */; };
+		5D3B596C1743984000EC1942 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3B596B1743984000EC1942 /* Default.png */; };
+		5D3B596E1743984000EC1942 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3B596D1743984000EC1942 /* Default@2x.png */; };
+		5D3B59701743984000EC1942 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3B596F1743984000EC1942 /* Default-568h@2x.png */; };
+		5D3B59731743984000EC1942 /* PCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3B59721743984000EC1942 /* PCViewController.m */; };
+		5D3B59761743984000EC1942 /* PCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D3B59741743984000EC1942 /* PCViewController.xib */; };
+		5D3B597E17439C1A00EC1942 /* PCBottomTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3B597D17439C1A00EC1942 /* PCBottomTab.m */; };
+		5D3B598117439C6100EC1942 /* PCBottomTabManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3B598017439C6100EC1942 /* PCBottomTabManager.m */; };
+		5DDBD4A417447C550063C797 /* PCPageFind.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDBD4A317447C550063C797 /* PCPageFind.m */; };
+		5DDBD4A717447C760063C797 /* PCPageHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDBD4A617447C760063C797 /* PCPageHistory.m */; };
+		5DDBD4AA17447C8D0063C797 /* PCPageSale.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDBD4A917447C8D0063C797 /* PCPageSale.m */; };
+		5DDBD4AD17447C960063C797 /* PCPageMore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDBD4AC17447C960063C797 /* PCPageMore.m */; };
+		5DDBD4B017447DBD0063C797 /* PCPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDBD4AF17447DBD0063C797 /* PCPage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D3B59561743984000EC1942 /* SheIsThere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SheIsThere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D3B59591743984000EC1942 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5D3B595B1743984000EC1942 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5D3B595D1743984000EC1942 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5D3B59611743984000EC1942 /* SheIsThere-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SheIsThere-Info.plist"; sourceTree = "<group>"; };
+		5D3B59631743984000EC1942 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5D3B59651743984000EC1942 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D3B59671743984000EC1942 /* SheIsThere-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SheIsThere-Prefix.pch"; sourceTree = "<group>"; };
+		5D3B59681743984000EC1942 /* PCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCAppDelegate.h; sourceTree = "<group>"; };
+		5D3B59691743984000EC1942 /* PCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCAppDelegate.m; sourceTree = "<group>"; };
+		5D3B596B1743984000EC1942 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5D3B596D1743984000EC1942 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5D3B596F1743984000EC1942 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5D3B59711743984000EC1942 /* PCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCViewController.h; sourceTree = "<group>"; };
+		5D3B59721743984000EC1942 /* PCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCViewController.m; sourceTree = "<group>"; };
+		5D3B59751743984000EC1942 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PCViewController.xib; sourceTree = "<group>"; };
+		5D3B597C17439C1900EC1942 /* PCBottomTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCBottomTab.h; sourceTree = "<group>"; };
+		5D3B597D17439C1A00EC1942 /* PCBottomTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCBottomTab.m; sourceTree = "<group>"; };
+		5D3B597F17439C6100EC1942 /* PCBottomTabManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCBottomTabManager.h; sourceTree = "<group>"; };
+		5D3B598017439C6100EC1942 /* PCBottomTabManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCBottomTabManager.m; sourceTree = "<group>"; };
+		5DDBD4A217447C550063C797 /* PCPageFind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCPageFind.h; sourceTree = "<group>"; };
+		5DDBD4A317447C550063C797 /* PCPageFind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCPageFind.m; sourceTree = "<group>"; };
+		5DDBD4A517447C760063C797 /* PCPageHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCPageHistory.h; sourceTree = "<group>"; };
+		5DDBD4A617447C760063C797 /* PCPageHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCPageHistory.m; sourceTree = "<group>"; };
+		5DDBD4A817447C8D0063C797 /* PCPageSale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCPageSale.h; sourceTree = "<group>"; };
+		5DDBD4A917447C8D0063C797 /* PCPageSale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCPageSale.m; sourceTree = "<group>"; };
+		5DDBD4AB17447C960063C797 /* PCPageMore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCPageMore.h; sourceTree = "<group>"; };
+		5DDBD4AC17447C960063C797 /* PCPageMore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCPageMore.m; sourceTree = "<group>"; };
+		5DDBD4AE17447DBD0063C797 /* PCPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCPage.h; sourceTree = "<group>"; };
+		5DDBD4AF17447DBD0063C797 /* PCPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCPage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D3B59531743984000EC1942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3B595A1743984000EC1942 /* UIKit.framework in Frameworks */,
+				5D3B595C1743984000EC1942 /* Foundation.framework in Frameworks */,
+				5D3B595E1743984000EC1942 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D3B594D1743984000EC1942 = {
+			isa = PBXGroup;
+			children = (
+				5D3B595F1743984000EC1942 /* SheIsThere */,
+				5D3B59581743984000EC1942 /* Frameworks */,
+				5D3B59571743984000EC1942 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D3B59571743984000EC1942 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D3B59561743984000EC1942 /* SheIsThere.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D3B59581743984000EC1942 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D3B59591743984000EC1942 /* UIKit.framework */,
+				5D3B595B1743984000EC1942 /* Foundation.framework */,
+				5D3B595D1743984000EC1942 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D3B595F1743984000EC1942 /* SheIsThere */ = {
+			isa = PBXGroup;
+			children = (
+				5DD364101745DE8800580974 /* BottomTab */,
+				5DD3640F1745DE7200580974 /* Page */,
+				5D3B59681743984000EC1942 /* PCAppDelegate.h */,
+				5D3B59691743984000EC1942 /* PCAppDelegate.m */,
+				5D3B59711743984000EC1942 /* PCViewController.h */,
+				5D3B59721743984000EC1942 /* PCViewController.m */,
+				5D3B59741743984000EC1942 /* PCViewController.xib */,
+				5D3B59601743984000EC1942 /* Supporting Files */,
+			);
+			path = SheIsThere;
+			sourceTree = "<group>";
+		};
+		5D3B59601743984000EC1942 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D3B59611743984000EC1942 /* SheIsThere-Info.plist */,
+				5D3B59621743984000EC1942 /* InfoPlist.strings */,
+				5D3B59651743984000EC1942 /* main.m */,
+				5D3B59671743984000EC1942 /* SheIsThere-Prefix.pch */,
+				5D3B596B1743984000EC1942 /* Default.png */,
+				5D3B596D1743984000EC1942 /* Default@2x.png */,
+				5D3B596F1743984000EC1942 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DD3640F1745DE7200580974 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				5DDBD4A217447C550063C797 /* PCPageFind.h */,
+				5DDBD4A317447C550063C797 /* PCPageFind.m */,
+				5DDBD4A517447C760063C797 /* PCPageHistory.h */,
+				5DDBD4A617447C760063C797 /* PCPageHistory.m */,
+				5DDBD4A817447C8D0063C797 /* PCPageSale.h */,
+				5DDBD4A917447C8D0063C797 /* PCPageSale.m */,
+				5DDBD4AB17447C960063C797 /* PCPageMore.h */,
+				5DDBD4AC17447C960063C797 /* PCPageMore.m */,
+				5DDBD4AE17447DBD0063C797 /* PCPage.h */,
+				5DDBD4AF17447DBD0063C797 /* PCPage.m */,
+			);
+			name = Page;
+			sourceTree = "<group>";
+		};
+		5DD364101745DE8800580974 /* BottomTab */ = {
+			isa = PBXGroup;
+			children = (
+				5D3B597C17439C1900EC1942 /* PCBottomTab.h */,
+				5D3B597D17439C1A00EC1942 /* PCBottomTab.m */,
+				5D3B597F17439C6100EC1942 /* PCBottomTabManager.h */,
+				5D3B598017439C6100EC1942 /* PCBottomTabManager.m */,
+			);
+			name = BottomTab;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D3B59551743984000EC1942 /* SheIsThere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D3B59791743984000EC1942 /* Build configuration list for PBXNativeTarget "SheIsThere" */;
+			buildPhases = (
+				5D3B59521743984000EC1942 /* Sources */,
+				5D3B59531743984000EC1942 /* Frameworks */,
+				5D3B59541743984000EC1942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SheIsThere;
+			productName = SheIsThere;
+			productReference = 5D3B59561743984000EC1942 /* SheIsThere.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D3B594E1743984000EC1942 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "裴超";
+			};
+			buildConfigurationList = 5D3B59511743984000EC1942 /* Build configuration list for PBXProject "SheIsThere" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5D3B594D1743984000EC1942;
+			productRefGroup = 5D3B59571743984000EC1942 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D3B59551743984000EC1942 /* SheIsThere */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D3B59541743984000EC1942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3B59641743984000EC1942 /* InfoPlist.strings in Resources */,
+				5D3B596C1743984000EC1942 /* Default.png in Resources */,
+				5D3B596E1743984000EC1942 /* Default@2x.png in Resources */,
+				5D3B59701743984000EC1942 /* Default-568h@2x.png in Resources */,
+				5D3B59761743984000EC1942 /* PCViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D3B59521743984000EC1942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3B59661743984000EC1942 /* main.m in Sources */,
+				5D3B596A1743984000EC1942 /* PCAppDelegate.m in Sources */,
+				5D3B59731743984000EC1942 /* PCViewController.m in Sources */,
+				5D3B597E17439C1A00EC1942 /* PCBottomTab.m in Sources */,
+				5D3B598117439C6100EC1942 /* PCBottomTabManager.m in Sources */,
+				5DDBD4A417447C550063C797 /* PCPageFind.m in Sources */,
+				5DDBD4A717447C760063C797 /* PCPageHistory.m in Sources */,
+				5DDBD4AA17447C8D0063C797 /* PCPageSale.m in Sources */,
+				5DDBD4AD17447C960063C797 /* PCPageMore.m in Sources */,
+				5DDBD4B017447DBD0063C797 /* PCPage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D3B59621743984000EC1942 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D3B59631743984000EC1942 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5D3B59741743984000EC1942 /* PCViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D3B59751743984000EC1942 /* en */,
+			);
+			name = PCViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D3B59771743984000EC1942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5D3B59781743984000EC1942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D3B597A1743984000EC1942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SheIsThere/SheIsThere-Prefix.pch";
+				INFOPLIST_FILE = "SheIsThere/SheIsThere-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5D3B597B1743984000EC1942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SheIsThere/SheIsThere-Prefix.pch";
+				INFOPLIST_FILE = "SheIsThere/SheIsThere-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D3B59511743984000EC1942 /* Build configuration list for PBXProject "SheIsThere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D3B59771743984000EC1942 /* Debug */,
+				5D3B59781743984000EC1942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D3B59791743984000EC1942 /* Build configuration list for PBXNativeTarget "SheIsThere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D3B597A1743984000EC1942 /* Debug */,
+				5D3B597B1743984000EC1942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D3B594E1743984000EC1942 /* Project object */;
+}
