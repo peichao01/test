@@ -10,6 +10,9 @@ node_modules
 ._.DS_Store
 .idea/
 
+www/think_shop_test/ThinkPHP/
+Temp
+
 /symfony2/app/config/parameters.yml
 /symfony2/app/bootstrap*
 /symfony2/app/cache/*
