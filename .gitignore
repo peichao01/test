@@ -12,6 +12,8 @@ node_modules
 
 www/think_shop_test/ThinkPHP/
 Temp
+yii/framework
+yii/yii_test/assets
 
 /symfony2/app/config/parameters.yml
 /symfony2/app/bootstrap*
