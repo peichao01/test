@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>test mobile html5</title>
+		<style>
+			body{
+				padding: 0;
+				margin: 0;
+				width: 100%;
+				height: 100%;
+			}
+			#canvas{
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<!--<div id="box"></div>-->
+		<canvas id="canvas"></canvas>
+		<script>
+			var box = document.querySelector('#box');
+			var context = document.querySelector('#canvas').getContext('2d');
+
+			context.beginPath();
+			context.moveTo(10, 10);
+			context.lineTo(10, 100);
+			context.lineTo(50, 100);
+			context.closePath();
+			context.fillStyle = 'blue';
+			context.fill();
+			context.strokeStyle = 'black';
+			context.stroke();
+
+			function onDocTouch(options, cb){
+				if(typeof options === 'function'){
+					cb = options;
+					options = undefined;
+				}
+				options = extend({
+
+				}, options);
+
+				var start;
+				var point = {};
+
+				context.beginPath();
+
+				document.addEventListener('touchstart', function(e){
+					start = true;
+					point['pageX'] = e.pageX;
+					point['pageY'] = e.pageY;
+
+					context.moveTo(e.pageX, e.pageY);
+					console.log(e.pageX, e.pageY);
+				});
+				document.addEventListener('touchmove', function(e){
+					if(!start) return;
+					var nowPageX = e.pageX;
+					var nowPageY = e.pageY;
+
+					context.lineTo(e.pageX, e.pageY);
+				});
+				document.addEventListener('touchend', function(e){
+					start = false;
+					point['pageX'] = e.pageX;
+					point['pageY'] = e.pageY;
+
+					context.lineWidth = 5;
+					context.strokeStyle = 'black';
+					context.stroke();
+					console.log(e.pageX, e.pageY);
+				});
+			}
+
+			onDocTouch({},function(){
+
+			});
+
+			function extend(first, second){
+				for(var key in second){
+					if(second.hasOwnProperty(key)){
+						var value = second[key];
+						first[key] = value;
+					}
+				}
+			}
+		</script>
+	</body>
+</html>
