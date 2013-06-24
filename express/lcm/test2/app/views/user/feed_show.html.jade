@@ -1,0 +1,13 @@
+extends ../layout/layout
+
+block main
+	#feed-create
+		form(action=feedCreatePath(), method="POST")
+			.title
+				h3 title:
+				input(name="title", placeholder="feed title")
+			.content
+				h4 content:
+				textarea(name="content", placeholder="Please input your content")
+
+				input(type="submit", value="发布feed")

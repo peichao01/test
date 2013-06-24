@@ -1,7 +1,10 @@
 var express = require('express')
 	, passport = require('passport')
   , poweredBy = require('connect-powered-by')
-  , util = require('util');
+  , util = require('util')
+	, lessMiddleware = require('less-middleware');
+
+var publicDir = __dirname + '/../../public';
 
 module.exports = function() {
   // Warn of version mismatch between global "lcm" binary and local installation
@@ -41,7 +44,13 @@ module.exports = function() {
   this.use(poweredBy('Locomotive'));
   this.use(express.logger());
   this.use(express.favicon());
-  this.use(express.static(__dirname + '/../../public'));
+	/*this.use(lessMiddleware({
+		dest: publicDir + '/styles',
+		src: publicDir + '/src/less',
+		prefix: '/src',
+		compress: true
+	}));*/
+  this.use(express.static(publicDir));
 	this.use(express.cookieParser());
   this.use(express.bodyParser());
   this.use(express.methodOverride());

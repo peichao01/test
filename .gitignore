@@ -5,6 +5,12 @@
 *~
 
 node_modules
+
+cache
+CordovaLib
+Debug-iphonesimulator
+phonegap/*/build/include/Cordova
+
 .meteor
 .DS_Store
 ._.DS_Store
@@ -28,5 +34,7 @@ yii/yii_test/assets
 /symfony2/web/css/*
 /symfony2/web/*.log
 /symfony2/web/uploads
+/symfony2/*/vendor
+symfony2/*/web
 
 ios/Formic/.git_bak/*
