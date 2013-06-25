@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<canvas id="canvas" width="578" height="200"></canvas>
+	<script>
+		function loadImage(arr, cb){
+			var loadCount = 0,
+				imgCount = arr.length;
+			arr.forEach(function(src, i){
+				var imageObj = new Image();
+				imageObj.onload = function(){
+					loadCount++;
+					cb(i, loadCount, imgCount, src, imageObj);
+				}
+				imageObj.src = src;
+			});
+		}
+
+		var imgArr = [
+				'http://www.nxkf.com/uploads/allimg/120707/110P05B4-2.jpg',
+				'http://pica.nipic.com/2007-07-20/2007720104353475_2.jpg',
+				'http://ts2.mm.bing.net/th?id=H.4511013791795597&pid=1.7',
+				'http://ts4.mm.bing.net/th?id=H.4733454466745055&pid=1.7'
+		];
+
+		loadImage(imgArr, function(i, loadCount, totalCount, src, imageObj){
+			//console.log(i, loadCount, totalCount);
+			console.log(loadCount + '/' + totalCount);
+			if(loadCount == totalCount){
+				console.log('loaded completely');
+				var canvas = document.querySelector('#canvas').getContext('2d');
+				var pattern = canvas.createPattern(imageObj, 'repeat');
+				canvas.rect(0, 0, canvas.width, canvas.height);
+
+				canvas.fillStyle = pattern;
+				canvas.fill();
+			}
+		});
+	</script>
+</body>
+</html>
