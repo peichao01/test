@@ -3,6 +3,8 @@
 class UserAction extends Action {
     
 	public function index(){
+		echo C('URL_MODEL');
+		a();
 		echo 'UserAction:index';
 	}
 
