@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>test script load</title>
+		<script src="js/loader-test-lib.js"></script>
+		<script>
+			loader.config({
+				root: '/test/js'
+			});
+			loader.use(function(require){
+				var d = require('./d');
+			});
+		</script>
+	</head>
+	<body>
+
+	</body>
+</html>

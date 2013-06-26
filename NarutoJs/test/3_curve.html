@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<canvas id="canvas" width="578" height="200"></canvas>
+	<script>
+		var canvasDom = document.querySelector('#canvas');
+		var context = canvasDom.getContext('2d');
+
+		context.beginPath();
+		context.moveTo(188, 150);
+		context.quadraticCurveTo(288, 0, 388, 150);
+		context.lineWidth = 10;
+
+		context.strokeStyle = 'rgba(0, 0, 0, .5)';
+		context.stroke();
+
+		context.beginPath();
+		context.moveTo(188, 130);
+		context.bezierCurveTo(140, 10, 388, 10, 388, 170);
+		context.lineWidth = 10;
+
+		context.strokeStyle = 'rgba(200, 30, 150, 0.5)';
+		context.stroke();
+
+		function getArcByAngle(angle){
+			return angle/180 * Math.PI;
+		}
+
+	</script>
+</body>
+</html>

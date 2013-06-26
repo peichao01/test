@@ -14,6 +14,8 @@
 		"passport-local": "latest",
 		"passport-remember-me": "latest",
 		"passport-github": "latest",
-		"bcrypt": "latest"
+		"bcrypt": "latest",
+		"less": "latest",
+		"less-middleware": "latest"
   }
 }

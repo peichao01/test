@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<canvas id="canvas" width="578" height="200"></canvas>
+	<script>
+		var canvasDom = document.querySelector('#canvas');
+		var context = canvasDom.getContext('2d');
+
+		context.beginPath();
+		context.moveTo(100, 150);
+		context.lineTo(450, 50);
+		context.lineTo(400, 150);
+		context.lineWidth = 15;
+		context.lineCap = 'butt';
+		context.strokeStyle = 'rgba(255, 0, 0, .5)';
+		context.stroke();
+
+		context.beginPath();
+		context.moveTo(120, 170);
+		context.lineTo(470, 70);
+		context.lineTo(420, 170);
+		context.lineWidth = 15;
+		context.lineCap = 'round';
+		context.strokeStyle = 'rgba(255, 0, 0, .5)';
+		context.stroke();
+
+		context.beginPath();
+		context.moveTo(140, 190);
+		context.lineTo(490, 90);
+		context.lineTo(440, 190);
+		context.lineWidth = 15;
+		context.lineCap = 'square';
+		context.strokeStyle = 'rgba(255, 0, 0, .5)';
+		context.stroke();
+
+	</script>
+</body>
+</html>

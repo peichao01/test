@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<canvas id="canvas" width="578" height="200"></canvas>
+	<script>
+		var canvasDom = document.querySelector('#canvas');
+		var context = canvasDom.getContext('2d');
+
+		context.beginPath();
+		context.rect(188, 50, 200, 100);
+		context.fillStyle = 'rgba(0, 255, 0, .5)';
+		context.fill();
+		context.lineWidth = 7;
+		context.strokeStyle = 'rgba(0, 0, 0, .5)';
+		context.stroke();
+
+		var centerX = canvas.width / 2;
+		var centerY = canvas.height / 2;
+		var radius = 70;
+
+		context.beginPath();
+		context.arc(centerX, centerY, radius, 0, 2*Math.PI, false);
+		context.fillStyle = 'rgba(0, 0, 255, .5)';
+		context.fill();
+		context.lineWidth = 5;
+		context.strokeStyle = 'rgba(0, 80, 0, .5)';
+		context.stroke();
+
+		context.beginPath();
+		context.arc(288, 75, 70, 0, Math.PI, false);
+		context.closePath();
+		context.lineWidth - 5;
+		context.fillStyle = 'rgba(255, 0, 0, .5)';
+		context.fill();
+		context.strokeStyle = 'rgba(100, 0, 0, .5)';
+		context.stroke();
+
+	</script>
+</body>
+</html>

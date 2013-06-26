@@ -8,6 +8,7 @@
 module.exports = function routes() {
   this.root('page#main');
 
+	//登录注册
 	this.match('/login', 'passport#loginShow', {via: 'GET', as: 'loginShow'});
 	this.match('/login', 'passport#loginDeal', {via: 'POST'});
 
@@ -15,4 +16,8 @@ module.exports = function routes() {
 	this.match('/register', 'passport#registerDeal', {via: 'POST'});
 
 	this.match('/logout', 'passport#logout', {as: 'logout'});
+
+	//用户页面
+	this.match('/user', 'user#feedCreate', {via: 'POST', as: 'feedCreate'});
+	this.match('/user', 'user#feedShow', {via: 'GET', as: 'feedShow'});
 }

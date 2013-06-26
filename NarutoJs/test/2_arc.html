@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<canvas id="canvas" width="578" height="200"></canvas>
+	<script>
+		var canvasDom = document.querySelector('#canvas');
+		var context = canvasDom.getContext('2d');
+
+		var x = canvas.width / 2;
+		var y = canvas.height / 2;
+		var radius = 75;
+		//var startAngle = 0.0 * Math.PI;
+		//var endAngle = 1.5 * Math.PI;
+		var startAngle = getArcByAngle(0);
+		var endAngle = getArcByAngle(130);
+
+		var counterClockwise = false;
+
+		context.beginPath();
+		context.arc(x, y, radius, startAngle, endAngle, counterClockwise);
+		context.lineWidth = 15;
+
+		context.strokeStyle = 'black';
+		context.stroke();
+
+		function getArcByAngle(angle){
+			return angle/180 * Math.PI;
+		}
+
+	</script>
+</body>
+</html>
