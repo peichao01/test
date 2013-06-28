@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<style>
+		body {
+			margin: 0px;
+			padding: 0px;
+		}
+	</style>
+</head>
+<body>
+<canvas id="myCanvas" width="578" height="200"></canvas>
+<script>
+	var canvas = document.getElementById('myCanvas');
+	var context = canvas.getContext('2d');
+
+
+	context.rect(188, 40, 200, 100);
+	context.fillStyle = 'red';
+	context.shadowColor = new PCColor(0, 0, 0, .5);
+	context.shadowBlur = 20;
+	context.shadowOffsetX = 15;
+	context.shadowOffsetY = 15;
+	context.fill();
+
+	function getArcByAngle(angle){
+		return angle/180 * Math.PI;
+	}
+
+	function getAngleByArc(arc){
+		return arc * 180 / Math.PI;
+	}
+
+	function pad (str, count, padStr, isPadRight){
+		str = str + '';
+		var strLen = str.length;
+		if(strLen >= count) return str;
+		var left = count - strLen;
+		var padArr = [];
+		for(var i= 0;i<left;i++) padArr.push(padStr);
+		return isPadRight
+				? (str + padArr.join(''))
+				: (padArr.join('') + str);
+	}
+
+	function PCColor(r, g, b, a){
+		this.r = r;
+		this.g = g;
+		this.b = b;
+		this.a = a === undefined ? 1 : a;
+	}
+
+	PCColor.prototype.toString = function(){
+		return 'rgba('+this.r+','+this.g+','+this.b+','+this.a+')';
+	}
+
+	PCColor.prototype.toHex = function(){
+		return '#'
+				+ pad(this.r.toString(16), 2, '0', false)
+				+ pad(this.g.toString(16), 2, '0', false)
+				+ pad(this.b.toString(16), 2, '0', false);
+	}
+
+</script>
+</body>
+</html>

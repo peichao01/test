@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<canvas id="canvas" width="578" height="200"></canvas>
+<script>
+	var canvasDom = document.querySelector('#canvas');
+	var context = canvasDom.getContext('2d');
+
+	context.scale(1, 0.5);
+
+	context.fillStyle = 'blue';
+	context.fillRect(10, 10, 150, 100);
+
+</script>
+</body>
+</html>

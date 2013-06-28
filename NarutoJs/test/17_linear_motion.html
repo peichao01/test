@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<style>
+		body {
+			margin: 0px;
+			padding: 0px;
+		}
+	</style>
+</head>
+<body>
+<canvas id="myCanvas" width="578" height="200"></canvas>
+<script>
+	function drawRect(rect, context){
+		context.beginPath();
+		context.rect(rect.x, rect.y, rect.width, rect.height);
+		context.fillStyle = '#8ed6ff';
+		context.fill();
+		context.lineWidth = rect.borderWidth;
+		context.strokeStyle = 'black';
+		context.stroke();
+	}
+
+	function animate(rect, canvas, context, startTime){
+		var time = (new Date()).getTime() - startTime;
+
+		var linearSpeed = 100;//速度 = 100像素/秒
+		// pixels / second
+		var newX = linearSpeed * time / 1000;
+
+		if(newX < canvas.width - rect.width - rect.borderWidth){
+			rect.x = newX;
+		}
+
+		context.clearRect(0, 0, canvas.width, canvas.height);
+
+		drawRect(rect, context);
+
+		requestAnimationFrame(function(){
+			animate(rect, canvas, context, startTime);
+		});
+	}
+
+	var canvas = document.getElementById('myCanvas');
+	var context = canvas.getContext('2d');
+
+	var rect = {
+		x: 0,
+		y: 75,
+		width: 100,
+		height: 50,
+		borderWidth: 5
+	}
+
+	drawRect(rect, context);
+
+	setTimeout(function(){
+		var startTime = (new Date()).getTime();
+		animate(rect, canvas, context, startTime);
+	}, 1000);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<style>
+		body {
+			margin: 0px;
+			padding: 0px;
+		}
+	</style>
+</head>
+<body>
+<canvas id="myCanvas" width="578" height="200"></canvas>
+<script>
+	var canvas = document.getElementById('myCanvas');
+	var context = canvas.getContext('2d');
+
+	context.beginPath();
+	context.rect(200, 20, 100, 100);
+	context.fillStyle = 'blue';
+	context.fill();
+
+	context.globalAlpha = 0.5;
+	context.beginPath();
+	context.arc(320, 120, 60, 0, getArcByAngle(360), false);
+	context.shadowColor = ''
+	context.fillStyle = 'red';
+	context.fill();
+
+	function getArcByAngle(angle){
+		return angle/180 * Math.PI;
+	}
+
+	function getAngleByArc(arc){
+		return arc * 180 / Math.PI;
+	}
+
+</script>
+</body>
+</html>

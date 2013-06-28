@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<style>
+		body {
+			margin: 0px;
+			padding: 0px;
+		}
+	</style>
+</head>
+<body>
+<canvas id="myCanvas" width="578" height="200"></canvas>
+<script>
+	var canvas = document.getElementById('myCanvas');
+	var context = canvas.getContext('2d');
+
+	window.requestAnimationFrame = (function(){
+		return window.requestAnimationFrame
+			|| window.webkitRequestAnimationFrame
+			|| window.mozRequestAnimationFrame
+			|| window.oRequestAnimationFrame
+			|| window.msRequestAnimationFrame
+			||function(cb){
+				cb.__pc_id !== undefined && clearTimeout(cb.__pc_id);
+				cb.__pc_id = window.setTimeout(cb, 1000/60);
+		};
+	})();
+
+	var startColor = new PCColor(10, 250, 200, 0.3);
+	var endColor = new PCColor(30, 160, 255, 1);
+	var animateInt = 0;
+	var positive = true;
+	var startInt = 0;
+	var endInt = 5 * 1000/60;
+
+	var middleColors = [];
+	(function(){
+		var i= 0, len=endInt - startInt;
+		var step = 1 / len;
+		for(; i<len; i++){
+			var r = Math.round(startColor.r + (endColor.r - startColor.r) * (i * step));
+			var g = Math.round(startColor.g + (endColor.g - startColor.g) * (i * step));
+			var b = Math.round(startColor.b + (endColor.b - startColor.b) * (i * step));
+			var a = startColor.a + (endColor.a - startColor.a) * (i * step);
+			//console.log(r,g,b,a);
+			middleColors.push(new PCColor(r, g, b, a));
+		}
+	})();
+
+	function animate(){
+		if(positive){
+			if(++animateInt >= endInt) positive = false;
+		}else{
+			if(--animateInt <= startInt) positive = true;
+			//return;
+		}
+
+		context.clearRect(0, 0, canvas.width, canvas.height);
+
+		context.beginPath();
+		context.rect(10, 10, 200, 100);
+		context.fillStyle = middleColors[animateInt] + '';
+		context.fill();
+		requestAnimationFrame(function(){
+			animate();
+		})
+	}
+
+	animate();
+
+	function getArcByAngle(angle){
+		return angle/180 * Math.PI;
+	}
+
+	function getAngleByArc(arc){
+		return arc * 180 / Math.PI;
+	}
+
+	function pad (str, count, padStr, isPadRight){
+		str = str + '';
+		var strLen = str.length;
+		if(strLen >= count) return str;
+		var left = count - strLen;
+		var padArr = [];
+		for(var i= 0;i<left;i++) padArr.push(padStr);
+		return isPadRight
+				? (str + padArr.join(''))
+				: (padArr.join('') + str);
+	}
+
+	function PCColor(r, g, b, a){
+		this.r = r;
+		this.g = g;
+		this.b = b;
+		this.a = a === undefined ? 1 : a;
+	}
+
+	PCColor.prototype.toString = function(){
+		return 'rgba('+this.r+','+this.g+','+this.b+','+this.a+')';
+	}
+
+	PCColor.prototype.toHex = function(){
+		return '#'
+				+ pad(this.r.toString(16), 2, '0', false)
+				+ pad(this.g.toString(16), 2, '0', false)
+				+ pad(this.b.toString(16), 2, '0', false);
+	}
+
+</script>
+</body>
+</html>
