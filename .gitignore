@@ -18,7 +18,7 @@ ios/*/*/libs
 ._.DS_Store
 .idea/
 
-www/think_shop_test/ThinkPHP/
+ThinkPHP
 Temp
 yii/framework
 yii/yii_test/assets

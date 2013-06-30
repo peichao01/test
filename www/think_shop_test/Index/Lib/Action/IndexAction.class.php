@@ -16,8 +16,21 @@ class IndexAction extends Action {
     }
 
     public function add(){
-    	echo 'IndexAction:add';
+    	//echo 'IndexAction:add';
+		$arr = array(
+			'name'=>'David',
+			'age'=>25,
+		);
+		if(!IS_POST) _404('页面不存在');
     }
+
+	public function show(){
+		$arr = array(
+			array('name'=>'Davlid'),
+			array('name'=>'John'),
+		);
+		$this->assign('arr', $arr)->display();
+	}
 
     public function delete(){
     	echo 'IndexAction:delete';
