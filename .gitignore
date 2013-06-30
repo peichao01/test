@@ -18,6 +18,10 @@ ios/*/*/libs
 ._.DS_Store
 .idea/
 
+www/thinkphp_test2/App/Public/js/lib/
+www/thinkphp_test2/App/Public/css/
+www/thinkphp_test2/App/Tpl/Admin/Public/css/
+
 ThinkPHP
 Temp
 yii/framework
