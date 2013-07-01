@@ -10,8 +10,10 @@ cache
 CordovaLib
 Debug-iphonesimulator
 phonegap/*/build/include/Cordova
+ios/*/*/libs
 
 .meteor
+.metadata
 .DS_Store
 ._.DS_Store
 .idea/
