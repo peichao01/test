@@ -23,6 +23,8 @@ Temp
 yii/framework
 yii/yii_test/assets
 
+www/think_shop_test/taobao-sdk-php-online_standard/
+
 /symfony2/app/config/parameters.yml
 /symfony2/app/bootstrap*
 /symfony2/app/cache/*

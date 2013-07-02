@@ -1,7 +1,9 @@
 <?php
 
+define('APP_ROOT', './');
+
 define('APP_NAME', 'Index');
-define('APP_PATH', './Index/');
+define('APP_PATH', APP_ROOT.'Index/');
 define('RUNTIME_PATH', APP_PATH.'Temp/');
 
 //部署项目时去掉这句话
