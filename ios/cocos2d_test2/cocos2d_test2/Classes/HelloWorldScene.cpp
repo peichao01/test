@@ -48,7 +48,7 @@ bool HelloWorld::init()
 
     /////////////////////////////
     // 3. add your codes below...
-	CCLayerGradient* layer1 = CCLayerGradient::create(ccc4(255, 0, 0, 255), ccc4(255, 0, 255, 255));
+	/*CCLayerGradient* layer1 = CCLayerGradient::create(ccc4(255, 0, 0, 255), ccc4(255, 0, 255, 255));
 	layer1->setContentSize(CCSizeMake(80, 80));
 	layer1->setPosition(ccp(50, 50));
 	addChild(layer1);
@@ -65,10 +65,10 @@ bool HelloWorld::init()
 	layer3->setEndColor(ccc3(255, 0, 255));
 	layer3->setStartOpacity(180);
 	layer3->setEndOpacity(220);
-	/*ccBlendFunc blend;
+	ccBlendFunc blend;
 	blend.src = GL_SRC_ALPHA;
 	blend.dst = GL_ONE_MINUS_SRC_ALPHA;
-	layer3->setBlendFunc(blend);*/
+	layer3->setBlendFunc(blend);
 	addChild(layer3);
 
     // add a label shows "Hello World"
@@ -83,7 +83,7 @@ bool HelloWorld::init()
 
     // add the label as a child to this layer
     this->addChild(pLabel, 1);
-
+*/
     // add "HelloWorld" splash screen"
     //CCSprite* pSprite = CCSprite::create("HelloWorld.png");
 
