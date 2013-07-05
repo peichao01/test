@@ -280,6 +280,8 @@
 		5D09FFBC1784006800A692C5 /* libwebsockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D09FFBB1784006800A692C5 /* libwebsockets.a */; };
 		5D09FFC21784006800A692C5 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D09FFC11784006800A692C5 /* AppDelegate.cpp */; };
 		5D09FFC51784006800A692C5 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D09FFC41784006800A692C5 /* HelloWorldScene.cpp */; };
+		5D4096621785172100FEBB34 /* naruto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D4096611785172100FEBB34 /* naruto.jpg */; };
+		5D4096651785175400FEBB34 /* HelloEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D4096631785175400FEBB34 /* HelloEffect.cpp */; };
 		5D9B3ECD178410C3005A1B15 /* Test2Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B3ECC178410C3005A1B15 /* Test2Scene.cpp */; };
 		5D9B3ED0178410E8005A1B15 /* Test1Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B3ECF178410E8005A1B15 /* Test1Scene.cpp */; };
 		5D9B3ED317841EEB005A1B15 /* parent.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D9B3ED217841EEB005A1B15 /* parent.png */; };
@@ -877,6 +879,9 @@
 		5D09FFC11784006800A692C5 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		5D09FFC31784006800A692C5 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		5D09FFC41784006800A692C5 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		5D4096611785172100FEBB34 /* naruto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = naruto.jpg; path = Resources/naruto.jpg; sourceTree = "<group>"; };
+		5D4096631785175400FEBB34 /* HelloEffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloEffect.cpp; sourceTree = "<group>"; };
+		5D4096641785175400FEBB34 /* HelloEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloEffect.h; sourceTree = "<group>"; };
 		5D9B3ECB178410B4005A1B15 /* Test2Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test2Scene.h; sourceTree = "<group>"; };
 		5D9B3ECC178410C3005A1B15 /* Test2Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test2Scene.cpp; sourceTree = "<group>"; };
 		5D9B3ECF178410E8005A1B15 /* Test1Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test1Scene.cpp; sourceTree = "<group>"; };
@@ -954,6 +959,7 @@
 		5D09FC2F1784006100A692C5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5D4096611785172100FEBB34 /* naruto.jpg */,
 				5D9B3ED417841EF1005A1B15 /* child.png */,
 				5D9B3ED217841EEB005A1B15 /* parent.png */,
 				5D09FC301784006100A692C5 /* CloseNormal.png */,
@@ -2113,6 +2119,8 @@
 				5D9B3ECC178410C3005A1B15 /* Test2Scene.cpp */,
 				5D9B3ECF178410E8005A1B15 /* Test1Scene.cpp */,
 				5D9B3ED117841108005A1B15 /* Test1Scene.h */,
+				5D4096631785175400FEBB34 /* HelloEffect.cpp */,
+				5D4096641785175400FEBB34 /* HelloEffect.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -2182,6 +2190,7 @@
 				5D09FE581784006600A692C5 /* project.pbxproj in Resources */,
 				5D9B3ED317841EEB005A1B15 /* parent.png in Resources */,
 				5D9B3ED517841EF1005A1B15 /* child.png in Resources */,
+				5D4096621785172100FEBB34 /* naruto.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2443,6 +2452,7 @@
 				5D09FFC51784006800A692C5 /* HelloWorldScene.cpp in Sources */,
 				5D9B3ECD178410C3005A1B15 /* Test2Scene.cpp in Sources */,
 				5D9B3ED0178410E8005A1B15 /* Test1Scene.cpp in Sources */,
+				5D4096651785175400FEBB34 /* HelloEffect.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
