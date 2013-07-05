@@ -1,0 +1,8 @@
+@is_mobile: true;
+//@is_mobile: false;
+
+//@import "mobile_base" when (@is_mobile = mobile);
+.header(@param) when (@param) {
+	@import "mobile_base";
+}
+.header(@is_mobile);

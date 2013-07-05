@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Test Matrix rotate</title>
+	</head>
+	<body>
+		<!--<h1>俄罗斯方块，旋转：Matrix rotate test</h1>-->
+		<p>查看 console</p>
+		<script src="../util.js"></script>
+		<script>
+			var a = [[1, 2, 3],
+					 [4, 5, 6],
+					 [7, 8, 9]];
+			var b = [1, 2, 3,
+					 4, 5, 6,
+					 7, 8, 9];
+			var c = [[1, 2],
+					 [3, 4],
+					 [5, 6]];
+			var d = [1, 2,
+					 3, 4,
+					 5, 6];
+			var block_a = [[0, 1, 1],
+						   [0, 1, 0],
+						   [0, 1, 0]];
+			var block_b = [[0, 1, 0],
+						   [1, 1, 1],
+						   [0, 0, 0]];
+			var matrix = naruto.util.Matrix2D;
+			var rotate = matrix.rotateClockwise;
+			var anti = matrix.rotateAnticlockwise;
+			//console.log(rotate(rotate(rotate(rotate(a)))));
+			//console.log(rotate(a));
+			//console.log(rotate(c));
+			//console.log(rotate(b, 3));
+			/*console.log(anti(b, 3));
+			 console.log(anti(d, 2));
+			 console.log(anti(a));
+			 console.log(anti(c));*/
+			var b1 = rotate(block_b);
+			var b2 = rotate(b1);
+			var b3 = rotate(b2);
+			matrix.print(block_b);
+			matrix.printEmptyLine();
+			matrix.print(b1);
+			matrix.printEmptyLine();
+			matrix.print(b2);
+			matrix.printEmptyLine();
+			matrix.print(b3);
+			matrix.printEmptyLine();
+
+			matrix.print(block_a);
+			matrix.print(b, 4, 15);
+		</script>
+	</body>
+</html>
