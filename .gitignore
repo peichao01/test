@@ -11,12 +11,15 @@ CordovaLib
 Debug-iphonesimulator
 phonegap/*/build/include/Cordova
 ios/*/*/libs
+jquery-1.10.2.min.js
 
 .meteor
 .metadata
 .DS_Store
 ._.DS_Store
 .idea/
+
+0_resume/resources/js/Chart.min.js
 
 www/thinkphp_test2/App/Public/js/lib/
 www/thinkphp_test2/App/Public/css/
