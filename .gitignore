@@ -12,14 +12,17 @@ Debug-iphonesimulator
 phonegap/*/build/include/Cordova
 ios/*/*/libs
 jquery-1.10.2.min.js
+Cocos2d-html5-v2.1.4
 
 .meteor
 .metadata
 .DS_Store
 ._.DS_Store
 .idea/
+canvasXpress
 
 0_resume/resources/js/Chart.min.js
+0_resume/resources/css/resume.css
 
 www/thinkphp_test2/App/Public/js/lib/
 www/thinkphp_test2/App/Public/css/
