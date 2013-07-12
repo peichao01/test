@@ -12,6 +12,8 @@
 using namespace cocos2d;
 using namespace CocosDenshion;
 
+#include "Layer1.h"
+
 CCScene* Test1Scene::scene()
 {
 	CCScene* scene = CCScene::create();
@@ -59,6 +61,11 @@ bool Test1Scene::init()
 	CCLog("positon = (%f, %f)", point2.x, point2.y);
 	CCLog("positon = (%f, %f)", point3.x, point3.y);
 	CCLog("positon = (%f, %f)", point4.x, point4.y);
+	
+	AA* aa = AA::createWithName(CCString::create("123"));
+	
+	this->addChild(aa, 99, 77);
+	
 	
 	return true;
 }
