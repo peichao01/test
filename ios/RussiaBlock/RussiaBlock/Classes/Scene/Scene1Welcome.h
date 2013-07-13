@@ -12,14 +12,20 @@
 #include <iostream>
 #include "cocos2d.h"
 
-class Scene1Welcom: public cocos2d::CCScene{
+using namespace cocos2d;
+
+class Scene1Welcome: public CCScene{
 public:
 	
-	bool init();
+	virtual bool init();
+	//static void update();
 	
-	virtual Scene1Welcom* scene();
+	static Scene1Welcome* scene();
 	
-	CREATE_FUNC(Scene1Welcom);
+	CREATE_FUNC(Scene1Welcome);
+	
+	void onBtnPlayClick(CCObject* pSender);
+	void onBtnMainClick(CCObject* pSender);
 };
 
 #endif /* defined(__RussiaBlock__Scene1Welcome__) */

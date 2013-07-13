@@ -13,12 +13,12 @@
 #include "cocos2d.h"
 
 USING_NS_CC;
-
+/*
 class TestCCScene:public CCScene{
 	
 public:
 	virtual bool init();
 	static TestCCScene* scene();
 };
-
+*/
 #endif /* defined(__cocos2d_test2__TestCCScene__) */

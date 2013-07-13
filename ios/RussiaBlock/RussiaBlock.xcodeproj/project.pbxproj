@@ -279,14 +279,20 @@
 		5D3CD628178FE1D200E133DC /* cpVect.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CD627178FE1D200E133DC /* cpVect.c */; };
 		5D3CD630178FE1D200E133DC /* libwebsockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3CD62F178FE1D200E133DC /* libwebsockets.a */; };
 		5D3CD636178FE1D200E133DC /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CD635178FE1D200E133DC /* AppDelegate.cpp */; };
-		5D3CD639178FE1D200E133DC /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CD638178FE1D200E133DC /* HelloWorldScene.cpp */; };
 		5D3CD641178FEF1300E133DC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3CD63F178FEF1300E133DC /* Default-568h@2x.png */; };
 		5D3CD642178FEF1300E133DC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3CD640178FEF1300E133DC /* Default@2x.png */; };
 		5D3CD649179008A400E133DC /* btn_play.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3CD645179008A400E133DC /* btn_play.png */; };
 		5D3CD64A179008A400E133DC /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3CD646179008A400E133DC /* logo.png */; };
 		5D3CD64B179008A400E133DC /* menu_main.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3CD647179008A400E133DC /* menu_main.png */; };
 		5D3CD64C179008A400E133DC /* welcome_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3CD648179008A400E133DC /* welcome_bg.png */; };
-		5D3CD64F179008CB00E133DC /* Scene1Welcome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CD64D179008CA00E133DC /* Scene1Welcome.cpp */; };
+		5D3CD6511790447E00E133DC /* welcome_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3CD6501790447E00E133DC /* welcome_bg@2x.png */; };
+		5D3CD653179045B100E133DC /* HelloWorld@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3CD652179045B100E133DC /* HelloWorld@2x.png */; };
+		5D3CD659179057C200E133DC /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CD655179057C200E133DC /* HelloWorldScene.cpp */; };
+		5D3CD65A179057C200E133DC /* Scene1Welcome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CD657179057C200E133DC /* Scene1Welcome.cpp */; };
+		5D3CD65D179057EA00E133DC /* PCSugerSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CD65B179057EA00E133DC /* PCSugerSprite.cpp */; };
+		5D462E8D1790F07A00C6E805 /* btn_play_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D462E8C1790F07A00C6E805 /* btn_play_selected.png */; };
+		5D462E8F1790F38200C6E805 /* menu_main_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D462E8E1790F38200C6E805 /* menu_main_selected.png */; };
+		5D462E921790F8C400C6E805 /* MainMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D462E901790F8C400C6E805 /* MainMenu.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -878,16 +884,24 @@
 		5D3CD632178FE1D200E133DC /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		5D3CD634178FE1D200E133DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		5D3CD635178FE1D200E133DC /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
-		5D3CD637178FE1D200E133DC /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
-		5D3CD638178FE1D200E133DC /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
 		5D3CD63F178FEF1300E133DC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
 		5D3CD640178FEF1300E133DC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Default@2x.png"; sourceTree = "<group>"; };
 		5D3CD645179008A400E133DC /* btn_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_play.png; path = Resources/btn_play.png; sourceTree = "<group>"; };
 		5D3CD646179008A400E133DC /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Resources/logo.png; sourceTree = "<group>"; };
 		5D3CD647179008A400E133DC /* menu_main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu_main.png; path = Resources/menu_main.png; sourceTree = "<group>"; };
 		5D3CD648179008A400E133DC /* welcome_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = welcome_bg.png; path = Resources/welcome_bg.png; sourceTree = "<group>"; };
-		5D3CD64D179008CA00E133DC /* Scene1Welcome.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scene1Welcome.cpp; sourceTree = "<group>"; };
-		5D3CD64E179008CA00E133DC /* Scene1Welcome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene1Welcome.h; sourceTree = "<group>"; };
+		5D3CD6501790447E00E133DC /* welcome_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "welcome_bg@2x.png"; path = "Resources/welcome_bg@2x.png"; sourceTree = "<group>"; };
+		5D3CD652179045B100E133DC /* HelloWorld@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HelloWorld@2x.png"; path = "Resources/HelloWorld@2x.png"; sourceTree = "<group>"; };
+		5D3CD655179057C200E133DC /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/Scene/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		5D3CD656179057C200E133DC /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/Scene/HelloWorldScene.h; sourceTree = "<group>"; };
+		5D3CD657179057C200E133DC /* Scene1Welcome.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Scene1Welcome.cpp; path = Classes/Scene/Scene1Welcome.cpp; sourceTree = "<group>"; };
+		5D3CD658179057C200E133DC /* Scene1Welcome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Scene1Welcome.h; path = Classes/Scene/Scene1Welcome.h; sourceTree = "<group>"; };
+		5D3CD65B179057EA00E133DC /* PCSugerSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PCSugerSprite.cpp; path = Classes/UI/PCSugerSprite.cpp; sourceTree = "<group>"; };
+		5D3CD65C179057EA00E133DC /* PCSugerSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PCSugerSprite.h; path = Classes/UI/PCSugerSprite.h; sourceTree = "<group>"; };
+		5D462E8C1790F07A00C6E805 /* btn_play_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_play_selected.png; path = Resources/btn_play_selected.png; sourceTree = "<group>"; };
+		5D462E8E1790F38200C6E805 /* menu_main_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu_main_selected.png; path = Resources/menu_main_selected.png; sourceTree = "<group>"; };
+		5D462E901790F8C400C6E805 /* MainMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenu.cpp; sourceTree = "<group>"; };
+		5D462E911790F8C400C6E805 /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -959,6 +973,10 @@
 		5D3CD2A3178FE1CD00E133DC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5D462E8E1790F38200C6E805 /* menu_main_selected.png */,
+				5D462E8C1790F07A00C6E805 /* btn_play_selected.png */,
+				5D3CD652179045B100E133DC /* HelloWorld@2x.png */,
+				5D3CD6501790447E00E133DC /* welcome_bg@2x.png */,
 				5D3CD645179008A400E133DC /* btn_play.png */,
 				5D3CD646179008A400E133DC /* logo.png */,
 				5D3CD647179008A400E133DC /* menu_main.png */,
@@ -2118,8 +2136,6 @@
 				5D3CD643178FF2E900E133DC /* UI */,
 				5D3CD634178FE1D200E133DC /* AppDelegate.h */,
 				5D3CD635178FE1D200E133DC /* AppDelegate.cpp */,
-				5D3CD637178FE1D200E133DC /* HelloWorldScene.h */,
-				5D3CD638178FE1D200E133DC /* HelloWorldScene.cpp */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -2127,6 +2143,10 @@
 		5D3CD643178FF2E900E133DC /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				5D3CD65B179057EA00E133DC /* PCSugerSprite.cpp */,
+				5D3CD65C179057EA00E133DC /* PCSugerSprite.h */,
+				5D462E901790F8C400C6E805 /* MainMenu.cpp */,
+				5D462E911790F8C400C6E805 /* MainMenu.h */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -2134,8 +2154,10 @@
 		5D3CD644178FF2F000E133DC /* Scene */ = {
 			isa = PBXGroup;
 			children = (
-				5D3CD64D179008CA00E133DC /* Scene1Welcome.cpp */,
-				5D3CD64E179008CA00E133DC /* Scene1Welcome.h */,
+				5D3CD655179057C200E133DC /* HelloWorldScene.cpp */,
+				5D3CD656179057C200E133DC /* HelloWorldScene.h */,
+				5D3CD657179057C200E133DC /* Scene1Welcome.cpp */,
+				5D3CD658179057C200E133DC /* Scene1Welcome.h */,
 			);
 			name = Scene;
 			sourceTree = "<group>";
@@ -2209,6 +2231,10 @@
 				5D3CD64A179008A400E133DC /* logo.png in Resources */,
 				5D3CD64B179008A400E133DC /* menu_main.png in Resources */,
 				5D3CD64C179008A400E133DC /* welcome_bg.png in Resources */,
+				5D3CD6511790447E00E133DC /* welcome_bg@2x.png in Resources */,
+				5D3CD653179045B100E133DC /* HelloWorld@2x.png in Resources */,
+				5D462E8D1790F07A00C6E805 /* btn_play_selected.png in Resources */,
+				5D462E8F1790F38200C6E805 /* menu_main_selected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2467,8 +2493,10 @@
 				5D3CD626178FE1D200E133DC /* cpSweep1D.c in Sources */,
 				5D3CD628178FE1D200E133DC /* cpVect.c in Sources */,
 				5D3CD636178FE1D200E133DC /* AppDelegate.cpp in Sources */,
-				5D3CD639178FE1D200E133DC /* HelloWorldScene.cpp in Sources */,
-				5D3CD64F179008CB00E133DC /* Scene1Welcome.cpp in Sources */,
+				5D3CD659179057C200E133DC /* HelloWorldScene.cpp in Sources */,
+				5D3CD65A179057C200E133DC /* Scene1Welcome.cpp in Sources */,
+				5D3CD65D179057EA00E133DC /* PCSugerSprite.cpp in Sources */,
+				5D462E921790F8C400C6E805 /* MainMenu.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2610,6 +2638,7 @@
 				5D3CD63E178FE1D200E133DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

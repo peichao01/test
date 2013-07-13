@@ -36,5 +36,5 @@ cocos2d::CCScene* scene(){
 		return sc;
 	}while (0);
 	
-	return NULL;
+	return sc;
 }

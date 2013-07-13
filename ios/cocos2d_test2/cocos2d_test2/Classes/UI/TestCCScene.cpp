@@ -7,7 +7,7 @@
 //
 
 #include "TestCCScene.h"
-
+/*
 bool init(){
 	return true;
 }
@@ -22,3 +22,4 @@ TestCCScene* scene(){
 	
 	return NULL;
 }
+*/
