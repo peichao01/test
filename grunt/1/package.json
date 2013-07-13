@@ -1,0 +1,22 @@
+{
+  "name": "test-grunt",
+  "version": "0.0.1",
+  "description": "test grunt",
+  "main": "index.js",
+  "scripts": {
+    "test": "no"
+  },
+  "keywords": [
+    "grunt",
+    "test"
+  ],
+  "author": "peichao",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-uglify": "~0.2.2"
+  }
+}
