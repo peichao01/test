@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.js"></script>
+	<script src="1.js"></script>
+</head>
+<body ng-app ng-init="name='world'">
+	<div ng-controller="HelloCtrl">
+		Say hello to: <input type="text" ng-model="name">
+		<h1>Hello, {{name}} -- {{getName()}}!</h1>
+	</div>
+<ul ng-controller="WorldCtrl">
+	<li ng-repeat="country in countries">
+		{{country.name}} has population of {{country.population}},
+		{{worldsPercentage(country.population)}} % of the World's population
+	</li>
+	World's population: {{population}} millions
+</ul>
+</body>
+</html>

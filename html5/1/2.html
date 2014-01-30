@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title></title>
+	<style>
+		#square{
+			width: 100px;
+			height: 100px;
+			background-color: #ccc;
+			position: absolute;
+		}
+	</style>
+</head>
+<body>
+<div id="main">
+	<div id="square">
+	</div>
+</div>
+<script>
+	var square = document.querySelector('#square');
+	square.addEventListener('touchmove', function(e){
+		e.preventDefault();
+		//alert(e.touches[0] === e.changedTouches[0]);
+		var touch = e.touches[0];
+		var elm = e.currentTarget;
+		var x = touch.pageX - elm.offsetLeft/2;
+		var y = touch.pageY - elm.offsetTop/2;
+		elm.style.left = x+'px';
+		elm.style.top = y+'px';
+	});
+
+	document.addEventListener('gesturestart', function(e){
+		'';
+	});
+
+	window.addEventListener('deviceorientation', function(e){
+		'';
+	});
+
+	window.ondevicemotion = function(e){
+		'';
+	};
+
+	window.addEventListener('orientationchange', function(e){
+		document.body.innerHTML = '<p>'+ e.orientation+'</p>';
+	});
+</script>
+</body>
+</html>

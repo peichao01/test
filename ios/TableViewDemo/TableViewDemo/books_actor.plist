@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>重振球风</key>
+		<string>aaa</string>
+		<key>无事生非</key>
+		<string>bbb</string>
+		<key>克莱默夫妇</key>
+		<string>ccc</string>
+		<key>极品飞车</key>
+		<string>ddd</string>
+		<key>水银蒸发令</key>
+		<string>eee</string>
+		<key>了不起的盖茨比</key>
+		<string>fff</string>
+		<key>时空特警</key>
+		<string>ggg</string>
+		<key>失落的第九军团</key>
+		<string>hhh</string>
+		<key>朱罗纪公园</key>
+		<string>iii</string>
+		<key>天空之城</key>
+		<string>jjj</string>
+		<key>火影忍者</key>
+		<string>旋涡鸣人</string>
+		<key>海贼王</key>
+		<string>MonkeyDLuffy</string>
+		<key>赏金杀手</key>
+		<string>kkk</string>
+	</dict>
+</plist>
