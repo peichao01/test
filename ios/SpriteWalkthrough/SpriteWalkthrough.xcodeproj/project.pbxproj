@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D745ABB189A511C00F5BED9 /* monster-walk-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D745AB6189A511C00F5BED9 /* monster-walk-1.png */; };
+		5D745ABC189A511C00F5BED9 /* monster-walk-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D745AB7189A511C00F5BED9 /* monster-walk-2.png */; };
+		5D745ABD189A511C00F5BED9 /* monster-walk-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D745AB8189A511C00F5BED9 /* monster-walk-3.png */; };
+		5D745ABE189A511C00F5BED9 /* monster-walk-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D745AB9189A511C00F5BED9 /* monster-walk-4.png */; };
+		5D745ABF189A511C00F5BED9 /* monster-walk-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D745ABA189A511C00F5BED9 /* monster-walk-5.png */; };
 		5DC47BC21897DF1100FFF2D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC47BC11897DF1100FFF2D8 /* Foundation.framework */; };
 		5DC47BC41897DF1100FFF2D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC47BC31897DF1100FFF2D8 /* CoreGraphics.framework */; };
 		5DC47BC61897DF1100FFF2D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC47BC51897DF1100FFF2D8 /* UIKit.framework */; };
@@ -40,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D745AB6189A511C00F5BED9 /* monster-walk-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monster-walk-1.png"; sourceTree = "<group>"; };
+		5D745AB7189A511C00F5BED9 /* monster-walk-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monster-walk-2.png"; sourceTree = "<group>"; };
+		5D745AB8189A511C00F5BED9 /* monster-walk-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monster-walk-3.png"; sourceTree = "<group>"; };
+		5D745AB9189A511C00F5BED9 /* monster-walk-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monster-walk-4.png"; sourceTree = "<group>"; };
+		5D745ABA189A511C00F5BED9 /* monster-walk-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monster-walk-5.png"; sourceTree = "<group>"; };
 		5DC47BBE1897DF1100FFF2D8 /* SpriteWalkthrough.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteWalkthrough.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DC47BC11897DF1100FFF2D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5DC47BC31897DF1100FFF2D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -94,6 +104,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D745AB5189A510500F5BED9 /* monster.atlas */ = {
+			isa = PBXGroup;
+			children = (
+				5D745AB6189A511C00F5BED9 /* monster-walk-1.png */,
+				5D745AB7189A511C00F5BED9 /* monster-walk-2.png */,
+				5D745AB8189A511C00F5BED9 /* monster-walk-3.png */,
+				5D745AB9189A511C00F5BED9 /* monster-walk-4.png */,
+				5D745ABA189A511C00F5BED9 /* monster-walk-5.png */,
+			);
+			name = monster.atlas;
+			sourceTree = "<group>";
+		};
 		5DC47BB51897DF1100FFF2D8 = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +199,7 @@
 		5DC47C02189A17CC00FFF2D8 /* res */ = {
 			isa = PBXGroup;
 			children = (
+				5D745AB5189A510500F5BED9 /* monster.atlas */,
 				5DC47C07189A1CB200FFF2D8 /* stretchable_button.png */,
 				5DC47C03189A17CC00FFF2D8 /* circle.png */,
 				5DC47C04189A17CC00FFF2D8 /* rocket.png */,
@@ -261,12 +284,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D745ABC189A511C00F5BED9 /* monster-walk-2.png in Resources */,
 				5DC47BDA1897DF1100FFF2D8 /* Images.xcassets in Resources */,
 				5DC47C08189A1CB200FFF2D8 /* stretchable_button.png in Resources */,
+				5D745ABD189A511C00F5BED9 /* monster-walk-3.png in Resources */,
+				5D745ABF189A511C00F5BED9 /* monster-walk-5.png in Resources */,
 				5DC47C06189A17CC00FFF2D8 /* rocket.png in Resources */,
 				5DC47BCC1897DF1100FFF2D8 /* InfoPlist.strings in Resources */,
 				5DC47BD51897DF1100FFF2D8 /* Main.storyboard in Resources */,
 				5DC47C05189A17CC00FFF2D8 /* circle.png in Resources */,
+				5D745ABE189A511C00F5BED9 /* monster-walk-4.png in Resources */,
+				5D745ABB189A511C00F5BED9 /* monster-walk-1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +529,7 @@
 				5DC47BF21897DF1100FFF2D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DC47BF31897DF1100FFF2D8 /* Build configuration list for PBXNativeTarget "SpriteWalkthroughTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +538,7 @@
 				5DC47BF51897DF1100FFF2D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

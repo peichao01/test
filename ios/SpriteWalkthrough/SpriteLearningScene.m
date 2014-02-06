@@ -51,6 +51,17 @@
 	//button.xScale = 4;
 	button.yScale = 4;
 	[self addChild:button];
+	
+	SKTextureAtlas* monsterAtlas = [SKTextureAtlas atlasNamed:@"monster"];
+	SKTexture* m1 = [monsterAtlas textureNamed:@"monster-walk-1.png"];
+	SKTexture* m2 = [monsterAtlas textureNamed:@"monster-walk-2.png"];
+	SKTexture* m3 = [monsterAtlas textureNamed:@"monster-walk-3.png"];
+	SKTexture* m4 = [monsterAtlas textureNamed:@"monster-walk-4.png"];
+	SKTexture* m5 = [monsterAtlas textureNamed:@"monster-walk-5.png"];
+	//NSArray* monsterWalkTextures1 = @[m1, m2, m3, m4, m5];
+	NSArray* monsterWalkTextures2 = [monsterAtlas textureNames];
+	//NSLog(@"monsterWalkTextures1: %@", monsterWalkTextures1);
+	NSLog(@"monsterWalkTextures2: %@", monsterWalkTextures2);
 }
 
 -(CGPoint)randomRocketLocation
