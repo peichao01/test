@@ -5,6 +5,7 @@
 *~
 
 node_modules
+cocos2d-x/*/cocos2d/*
 js_lib
 
 cache
