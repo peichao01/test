@@ -14,7 +14,10 @@ MovieTracker.Movie = Ember.Object.extend(MovieTracker.WatchedMixin, {
 	rating: 0,
 	titleAndRating: function () {
 		return this.get('title') + ' has a rating of ' + this.get('rating');
-	}.property('title','rating')
+	}.property('title','rating'),
+	titleChanged: function(){
+		console.log('Title changed!');
+	}.observes('title')
 });
 
 MovieTracker.ActionMovie = MovieTracker.Movie.extend({
